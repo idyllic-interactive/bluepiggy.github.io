@@ -1,0 +1,85 @@
+html, body {
+    margin: auto;
+  
+    height: 100%;
+  
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+html, body {
+    margin: auto;
+  
+    height: 100%;
+  
+    background: linear-gradient(180deg, #94c9ed 0%, #e5c9de 60%, #ecd7e7 100%);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+main {
+    min-height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mascot {
+    width:calc(2.5em + 50vw);
+}
+
+.name {
+    margin-top: 1em;
+
+    height:calc(1.8em + 8vw);
+}
+
+.links {
+    margin-top: 1em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    display: flex;
+    align-items: center;
+}
+.social-button {
+    background-color: #fff;
+
+    border-style: solid;
+    border-color: #343e6c;
+    border-radius: 50%;
+    border-width: calc(0.1em + 0.2vw);
+}
+.social {
+    height: calc(1em + 2vw);
+    padding: 0.8em;
+}
+@media (orientation:landscape) {
+
+    .mascot {
+        width:calc(2em + 18vw);
+    }
+ 
+    .name {
+        height:calc(2em + 4vw);
+    }
+ 
+ }
