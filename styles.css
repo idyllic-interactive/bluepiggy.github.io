@@ -47,12 +47,6 @@ main {
     background-size: cover;
 }
 
-.banner-image-gradient {
-    background: linear-gradient(0.25turn, #fff0, #fff0, #fff);
-    width: 100%;
-    height: 100%;
-}
-
 .banner-text-container {
     display: flex;
     flex-direction: column;
@@ -158,10 +152,6 @@ main {
     .banner-image-container {
         width: 100%;
         height: 100%;
-    }
-
-    .banner-image-gradient {
-        background: linear-gradient(#fff0, #fff0, #fff);
     }
 
     .banner-text-container {
