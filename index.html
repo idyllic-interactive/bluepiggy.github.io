@@ -4,9 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arima:wght@700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="glide/glide.core.min.css">
+    <link rel="stylesheet" href="glide/glide.theme.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="glide/glide.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var glide = new Glide('.glide', {
+                type: 'carousel',
+                perView: 3,
+                breakpoints: {
+                    767: {
+                    perView: 1
+                    },
+                }
+            })
+
+            glide.mount()
+        })
+    </script>
 
     <title>Blue Piggy</title>
 </head>
@@ -36,6 +54,34 @@
                 </div>
                 <div class="info-box"><i class="fa fa-heart-o"></i><br>Handmade in the UK</div>
                 <div class="info-box"><i class="fa fa-map-marker"></i><br>Free UK Shipping</div>
+            </div>
+            <div class="blue-piggy-slideshow">
+                <h2 style="text-align: center;font-size: 2.5em;line-height: 1;">Lorem ipsum dolor</h2>
+                <p style="max-width: 610px; margin-left: auto; margin-right: auto; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="slideshow-container">
+                    <div class="slideshow-text-container">
+                        <h2 style="font-size: 3em;line-height: 1;">Roll through our latest sets</h2>
+                        <p style="max-width: 300px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide"><img src="images/gallery_1.webp" alt="1"></li>
+                            <li class="glide__slide"><img src="images/gallery_2.webp" alt="2"></li>
+                            <li class="glide__slide"><img src="images/gallery_3.webp" alt="3"></li>
+                            <li class="glide__slide"><img src="images/gallery_4.webp" alt="4"></li>
+                            <li class="glide__slide"><img src="images/gallery_5.webp" alt="5"></li>
+                            <li class="glide__slide"><img src="images/gallery_6.webp" alt="6"></li>
+                            <li class="glide__slide"><img src="images/gallery_7.webp" alt="7"></li>
+                            <li class="glide__slide"><img src="images/gallery_8.webp" alt="8"></li>
+                        </ul>
+                        </div>
+                        <div class="glide__arrows" data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </article>
     </main>
