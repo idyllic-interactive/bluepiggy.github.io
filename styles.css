@@ -3,7 +3,7 @@ html, body {
   
     height: 100%;
 
-    font-family: Arima;
+    font-family: sans-serif;
 
     color: #000;
 }
@@ -56,14 +56,17 @@ main {
 }
 
 .banner-text-container h1 {
-    font-size: 3em;
-    line-height: 1.1em;
     margin-bottom: auto;
+
+    font-size: 3em;
+    font-weight: 500;
+
+    line-height: 1.1em;
 }
 
 .banner-text-container h2 {
     font-size: 1.5em;
-    line-height: 1.1em;
+    font-weight: 500;
 }
 
 .banner-text-container a {
@@ -137,8 +140,9 @@ main {
 }
 
 .blue-piggy-subheader h2 {
-    font-size: 2.5em;
-    line-height: 1;
+    font-size: 2.2em;
+    font-weight: 500;
+    margin-bottom: auto;
 }
 
 .blue-piggy-subheader p {
@@ -171,8 +175,13 @@ main {
 }
 
 .slideshow-text-container h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     line-height: 1;
+    font-weight: 500;
+}
+
+.slideshow-text-container p {
+    color: #808080;
 }
 
 .glide {
