@@ -198,18 +198,13 @@ main {
     color: #808080;
 }
 
-.glide {
-    display: flex;
-    align-items: center;
-}
-
-.glide img {
+#product-slideshow img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.glide__slide {
+#product-slideshow .glide__slide {
     height: 400px;
     color: #fff;
     background: rgb(136, 133, 133);
