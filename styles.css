@@ -220,6 +220,32 @@ main {
     font-weight: 900;
 }
 
+#product-slideshow .glide__arrow--left {
+    left: 0;
+
+    padding: unset;
+
+    border: none;
+
+    box-shadow: none;
+    text-shadow: none;
+
+    font-size: 4em;
+}
+
+#product-slideshow .glide__arrow--right {
+    right: 0;
+
+    padding: unset;
+
+    border: none;
+
+    box-shadow: none;
+    text-shadow: none;
+
+    font-size: 4em;
+}
+
 .blue-piggy-commissions {
     padding-top: 50px;
     padding-bottom: 50px;
