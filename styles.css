@@ -138,9 +138,17 @@ main {
 }
 
 .subheader-text-container {
+    width: 90vw;
+
+    margin-left: auto;
+    margin-right: auto;
+
     display: flex;
     flex-direction: column;
+
     align-items: center;
+
+    text-align: center;
 }
 
 .subheader-text-container h2 {
@@ -219,10 +227,17 @@ main {
 }
 
 .commissions-text-container {
+    width: 90vw;
+
+    margin-left: auto;
+    margin-right: auto;
+
     display: flex;
     flex-direction: column;
 
     align-items: center;
+
+    text-align: center;
 }
 
 .commissions-text-container h2 {
@@ -377,6 +392,8 @@ main {
     }
 
     .banner-text-container {
+        width: 90vw;
+        
         text-align: center;
         margin: auto;
     }
@@ -429,7 +446,7 @@ main {
     #review-slideshow .glide__slide {
         flex-direction: column-reverse;
 
-        height: 800px;
+        height: 600px;
     }
 
     #review-slideshow img {
