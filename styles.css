@@ -34,8 +34,7 @@ main {
 .blue-piggy-banner {
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
-    height: 80vh;
+    column-gap: 6vw;
     min-height: 600px;
 }
 
@@ -70,6 +69,8 @@ main {
 }
 
 .banner-text-container a {
+    margin-top: 1.5em;
+
     color: #fff;
     background-color: #000;
     font-size: 0.9em;
@@ -382,13 +383,15 @@ main {
 @media (max-width: 767px) {
     .blue-piggy-banner {
         flex-direction: column;
+
         justify-content: center;
-        padding-bottom: 100px;
+
+        padding-bottom: 50px;
     }
 
     .banner-image-container {
         width: 100%;
-        height: 100%;
+        height: 300px;
     }
 
     .banner-text-container {
