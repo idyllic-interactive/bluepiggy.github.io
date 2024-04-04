@@ -434,7 +434,7 @@ main {
         margin-right: 0;
     
         height: 200px;
-        min-width: 0;
+        min-width: unset;
     }
 
     #review-slideshow .glide__arrow {
