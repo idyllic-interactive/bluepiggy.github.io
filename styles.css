@@ -464,7 +464,6 @@ main {
     }
 
     .review-text-container {
-        padding-top: 70px;
         margin-left: 0;
 
         height: 600px;
@@ -475,18 +474,19 @@ main {
     #review-slideshow .glide__slide {
         flex-direction: column-reverse;
 
-        height: 600px;
+        height: 700px;
     }
 
     #review-slideshow img {
+        padding-top: 70px;
         margin-right: 0;
     
-        height: 200px;
+        height: 60%;
         min-width: unset;
     }
 
     #review-slideshow .glide__arrow {
-        top: 30%;
+        top: 5%;
     }
 
     #review-slideshow .glide__arrow--left {
