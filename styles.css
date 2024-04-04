@@ -72,12 +72,12 @@ main {
 .banner-text-container a {
     color: #fff;
     background-color: #000;
-    font-size: 1.2em;
+    font-size: 0.9em;
     text-decoration: none;
-    border-radius: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 250px;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 150px;
     text-align: center;
 }
 
@@ -254,12 +254,12 @@ main {
 .commissions-text-container a {
     color: #fff;
     background-color: #000;
-    font-size: 1.2em;
+    font-size: 0.9em;
     text-decoration: none;
     border-radius: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 250px;
+    width: 200px;
     text-align: center;
 }
 
@@ -393,7 +393,7 @@ main {
 
     .banner-text-container {
         width: 90vw;
-        
+
         text-align: center;
         margin: auto;
     }
