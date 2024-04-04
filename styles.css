@@ -257,14 +257,16 @@ main {
 }
 
 .blue-piggy-reviews {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.review-slideshow-container {
     width: 80vw;
     max-width: 1300px;
 
     margin-left: auto;
     margin-right: auto;
-
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 #etsy-logo {
@@ -407,11 +409,11 @@ main {
         width: 100%;
     }
 
-    .blue-piggy-slideshow {
-        width: 100vw;
+    .product-slideshow-container {
+        width: 90vw;
     }
 
-    .blue-piggy-reviews {
+    .review-slideshow-container {
         width: 90vw;
     }
 
