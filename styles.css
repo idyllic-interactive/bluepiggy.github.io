@@ -1,6 +1,6 @@
 html, body {
     margin: auto;
-  
+
     height: 100%;
 
     font-family: sans-serif;
@@ -10,7 +10,7 @@ html, body {
 
 main {
     min-height: 100%;
-  
+
     display: flex;
     flex-direction: column;
 }
@@ -100,7 +100,6 @@ main {
     margin-right: auto;
     margin-left: auto;
 
-    color: #fff;
     background-color: #94c9ed;
     border-radius: 40px;
 }
@@ -164,7 +163,7 @@ main {
     padding-bottom: 50px;
 }
 
-.slideshow-container {
+.product-slideshow-container {
     width: 80vw;
     max-width: 1300px;
 
@@ -177,14 +176,14 @@ main {
     column-gap: 40px;
 }
 
-.slideshow-text-container {
+.product-text-container {
     margin-top: auto;
     margin-bottom: auto;
 
     text-align: center;
 }
 
-.slideshow-text-container h2 {
+.product-text-container h2 {
     margin-top: 0;
     margin-bottom: 0;
 
@@ -194,7 +193,7 @@ main {
     line-height: 1;
 }
 
-.slideshow-text-container p {
+.product-text-container p {
     color: #808080;
 }
 
@@ -257,6 +256,100 @@ main {
     color: #d1d0d0;
 }
 
+.blue-piggy-reviews {
+    width: 80vw;
+    max-width: 1300px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#etsy-logo {
+    width: 100px;
+}
+
+#review-slideshow .glide__slide {
+    display: flex;
+
+    align-items: center; 
+
+    column-gap: 8em;
+
+    height: 400px;
+
+    color: #000;
+
+    font-weight: 500;
+}
+
+
+.review-text-container {
+    margin-left: 7em;
+
+    font-size: 1.3em;
+    line-height: 1.3;
+}
+
+.dice-review-type-text {
+    font-size: 0.7em;
+    color: gray;
+}
+
+.review-body-text {
+    text-align: justify;
+}
+
+#review-slideshow img {
+    margin-right: 7em;
+
+    width: 100%;
+    height: 100%;
+
+    min-width: 284.333px;
+
+    object-fit: cover;
+}
+
+#review-slideshow .glide__arrow {
+    color: #000;
+    padding: 16px 18px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    font-size: 1.3em;
+}
+
+#review-slideshow .glide__arrow--left {
+    left: 0;
+    padding-right: 21px;
+}
+
+#review-slideshow .glide__arrow--right {
+    right: 0;
+    padding-left: 21px;
+}
+
+@media (max-width: 1280px) {
+    #review-slideshow .glide__slide {
+        column-gap: 2em;
+    }
+
+    .review-text-container {
+        margin-left: 5em;
+    
+        font-size: 1.1em;
+    }
+
+    #review-slideshow img {
+        margin-right: 5em;
+    
+        height: 300px;
+        min-width: 200px;
+    }
+}
+
 @media (max-width: 1024px) {
     .info-boxes-container {
         min-width: unset;
@@ -291,7 +384,7 @@ main {
         line-height: 1.1em;
         margin-bottom: auto;
     }
-    
+
     .banner-text-container h2 {
         font-size: 1.4em;
     }
@@ -299,7 +392,7 @@ main {
     .banner-text-container a {
         margin: auto;
     }
-    
+
     .info-boxes-container {
         flex-direction: column;
         align-items: center;
@@ -309,12 +402,52 @@ main {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-        
+  
     .info-box {
         width: 100%;
     }
-  
+
     .blue-piggy-slideshow {
         width: 100vw;
+    }
+
+    .blue-piggy-reviews {
+        width: 90vw;
+    }
+
+    .review-text-container {
+        padding-top: 70px;
+        margin-left: 0;
+
+        height: 600px;
+
+        font-size: 1.3em;
+    }
+
+    #review-slideshow .glide__slide {
+        flex-direction: column-reverse;
+
+        height: 800px;
+    }
+
+    #review-slideshow img {
+        margin-right: 0;
+    
+        height: 200px;
+        min-width: 0;
+    }
+
+    #review-slideshow .glide__arrow {
+        top: 30%;
+    }
+
+    #review-slideshow .glide__arrow--left {
+        left: 0;
+        padding-right: 21px;
+    }
+
+    #review-slideshow .glide__arrow--right {
+        right: 0;
+        padding-left: 21px;
     }
 }

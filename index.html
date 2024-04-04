@@ -11,7 +11,7 @@
     <script src="glide/glide.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-           var slideshow = new Glide('#product-slideshow', {
+           var product = new Glide('#product-slideshow', {
                 type: 'carousel',
                 perView: 3,
                 breakpoints: {
@@ -24,7 +24,13 @@
                 }
             })
 
-            slideshow.mount()
+            var review = new Glide('#review-slideshow', {
+                type: 'carousel',
+                perView: 1,
+            })
+
+            product.mount()
+            review.mount()
         })
     </script>
 
@@ -65,8 +71,8 @@
                 </div>
             </div>
             <div class="blue-piggy-slideshow">
-                <div class="slideshow-container">
-                    <div class="slideshow-text-container">
+                <div class="product-slideshow-container">
+                    <div class="product-text-container">
                         <h2>Roll through our<br>latest sets</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Nunc ullamcorper<br>condimentum ultrices.</p>
                     </div>
@@ -97,9 +103,28 @@
                     <a href="https://www.etsy.com/uk/listing/1560702369/custom-dnd-dice-design-your-own-7-dice?sts=1">Check it out</a>
                 </div>
             </div>
-            <div class="blue-piggy-etsy-reviews">
+            <div class="blue-piggy-reviews">
+                <img id="etsy-logo" src="images/Etsy_logo.svg" alt="Etsy logo">
                 <div class="slideshow-container">
-
+                    <div id="review-slideshow" class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    <div class="review-text-container">
+                                        <p class="dice-review-type-text">Commission set</p>
+                                        <div>
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="review-body-text">"Absolutely phenomenal dice! And lovely seller to work with! Very proud to own these marvelous dice! They’re jam packed with my button hole flowers, with some little gold flakes. Great value for money and nice little extras in the package too"</p>
+                                    </div>
+                                    <img src="images/review_1.jpg" alt="1"></li>
+                            </ul>
+                        </div>
+                        <div class="glide__arrows" data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fa fa-chevron-left"></i></button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fa fa-chevron-right"></i></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </article>
