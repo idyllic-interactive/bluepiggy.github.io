@@ -38,7 +38,8 @@ nav {
 .blue-piggy-banner {
     min-height: 600px;
 
-    background-color: #fff;
+    color:#fff;
+    background-color: #94c9ed;
 
     display: flex;
     flex-direction: row;
@@ -79,14 +80,19 @@ nav {
 .banner-text-container a {
     margin-top: 1.5em;
 
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
+    
     font-size: 0.9em;
     text-decoration: none;
+
     border-radius: 10px;
+
     padding-top: 12px;
     padding-bottom: 12px;
+
     width: 150px;
+
     text-align: center;
 }
 
@@ -103,18 +109,25 @@ nav {
 }
 
 .info-boxes-container {
+    
     max-width: 930px;
     min-width: 930px;
+
     display: flex;
     justify-content: center;
+
     column-gap: 40px;
+
     padding-right: 30px;
     padding-left: 30px;
+
     margin-top: -60px;
     margin-right: auto;
     margin-left: auto;
 
-    background-color: #94c9ed;
+    color: #fff;
+    background-color: #343e6c;
+
     border-radius: 40px;
 }
 
@@ -186,7 +199,7 @@ nav {
     padding-top: 50px;
     padding-bottom: 50px;
 
-    background-color: #fff;
+    background-color: #f5f5f5;
 }
 
 .product-slideshow-container {
@@ -267,7 +280,8 @@ nav {
     padding-top: 50px;
     padding-bottom: 50px;
 
-    background-color: #f5f5f5;
+    color: #fff;
+    background-color: #343e6c;
 }
 
 .commissions-text-container {
@@ -296,14 +310,18 @@ nav {
 }
 
 .commissions-text-container a {
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
+
     font-size: 0.9em;
     text-decoration: none;
+
     border-radius: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
+
     width: 200px;
+
     text-align: center;
 }
 
