@@ -91,6 +91,7 @@ main {
 }
 
 .info-boxes-container {
+    max-width: 1200px;
     min-width: 930px;
     display: flex;
     justify-content: center;
