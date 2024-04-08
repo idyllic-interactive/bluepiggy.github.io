@@ -391,12 +391,21 @@ footer {
     align-items: center;
 }
 
+.social-links {
+    max-width: 120px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 #etsy-social {
-    height: 50px;
+    height: 40px;
+    margin-right: 10px;
 }
 
 #instagram-social {
-    height: 50px;
+    height: 40px;
+    margin-right: 10px;
 }
 
 @media (max-width: 1280px) {
