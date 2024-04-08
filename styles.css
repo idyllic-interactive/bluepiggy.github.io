@@ -15,6 +15,10 @@ main {
     flex-direction: column;
 }
 
+nav {
+    background-color: #fff;
+}
+
 .logo {
     width: 200px;
 }
@@ -32,10 +36,14 @@ main {
 }
 
 .blue-piggy-banner {
+    min-height: 600px;
+
+    background-color: #fff;
+
     display: flex;
     flex-direction: row;
+
     column-gap: 6vw;
-    min-height: 600px;
 }
 
 .banner-image-container {
@@ -90,6 +98,10 @@ main {
     color: #d1d0d0;
 }
 
+.blue-piggy-info-boxes {
+    background-color: #fff;
+}
+
 .info-boxes-container {
     max-width: 930px;
     min-width: 930px;
@@ -137,6 +149,8 @@ main {
 .blue-piggy-subheader {
     padding-top: 50px;
     padding-bottom: 50px;
+
+    background-color: #fff;
 }
 
 .subheader-text-container {
@@ -171,6 +185,8 @@ main {
 .blue-piggy-slideshow {
     padding-top: 50px;
     padding-bottom: 50px;
+
+    background-color: #fff;
 }
 
 .product-slideshow-container {
@@ -302,6 +318,8 @@ main {
 .blue-piggy-reviews {
     padding-top: 50px;
     padding-bottom: 50px;
+
+    background-color: #fff;
 }
 
 .review-slideshow-container {
@@ -346,7 +364,6 @@ main {
 
 #review-slideshow .glide__slide {
     display: flex;
-
     align-items: center; 
 
     column-gap: 8em;
@@ -443,13 +460,13 @@ footer {
 
     .review-text-container {
         margin-left: 5em;
-    
+
         font-size: 1.1em;
     }
 
     #review-slideshow img {
         margin-right: 5em;
-    
+
         height: 300px;
         min-width: 200px;
     }
@@ -511,7 +528,7 @@ footer {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-  
+
     .info-box {
         width: 100%;
     }
@@ -541,7 +558,7 @@ footer {
     #review-slideshow img {
         padding-top: 70px;
         margin-right: 0;
-    
+
         height: 60%;
         min-width: unset;
     }
