@@ -91,7 +91,7 @@ main {
 }
 
 .info-boxes-container {
-    max-width: 1200px;
+    max-width: 930px;
     min-width: 930px;
     display: flex;
     justify-content: center;
@@ -312,8 +312,36 @@ main {
     margin-right: auto;
 }
 
+.review-link-container {
+    display: flex;
+    align-items: center;
+    max-width: 310px;
+    width: 100%;
+    justify-content: space-between;
+}
+
 #etsy-logo {
     width: 100px;
+}
+
+.review-link-container a {
+    color: #fff;
+    background-color: #000;
+    font-size: 0.9em;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 150px;
+    text-align: center;
+}
+
+.review-link-container a:visited {
+    color: #fff;
+}
+
+.review-link-container a:hover {
+    color: #d1d0d0;
 }
 
 #review-slideshow .glide__slide {
