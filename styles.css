@@ -94,6 +94,8 @@ nav {
     width: 150px;
 
     text-align: center;
+
+    box-shadow: 0 .25em .5em 0 rgba(0,0,0,.3);
 }
 
 .banner-text-container a:visited {
@@ -122,6 +124,7 @@ nav {
     padding-left: 30px;
 
     margin-top: -60px;
+    margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
 
@@ -129,6 +132,8 @@ nav {
     background-color: #343e6c;
 
     border-radius: 40px;
+
+    box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
 }
 
 .info-box {
@@ -323,6 +328,8 @@ nav {
     width: 200px;
 
     text-align: center;
+
+    box-shadow: 0 .25em .5em 0 rgba(0,0,0,.3);
 }
 
 .commissions-text-container a:visited {
@@ -363,13 +370,21 @@ nav {
 .review-link-container a {
     color: #fff;
     background-color: #000;
+
     font-size: 0.9em;
     text-decoration: none;
+
     border-radius: 10px;
+
     padding-top: 12px;
     padding-bottom: 12px;
+
     width: 150px;
+
     text-align: center;
+
+    box-shadow: 0 .25em .5em 0 rgba(0,0,0,.3);
+
 }
 
 .review-link-container a:visited {
